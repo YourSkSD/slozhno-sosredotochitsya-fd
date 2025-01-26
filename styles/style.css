@@ -2,4 +2,128 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-family: var(--main-font-family, sans-serif);
+  font-weight: var(--main-text-font-weight, 400);
+  font-size: var(--main-text-font-size, 18px);
+  background-color: var(--bg-color, #000028);
+  appearance: none;
+}
+
+.header {
+  display: grid;
+  max-inline-size: 1024px;
+  min-block-size: 768px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr;
+  appearance: none;
+}
+
+.decorated-zone {
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: initial;
+  position: relative;
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  block-size: 25px;
+  inline-size: 25px;
+  border-top: 2px solid var(--accent-color, #ff0070);
+  border-right: 2px solid var(--accent-color, #ff0070);
+}
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  block-size: 25px;
+  inline-size: 25px;
+  border-bottom: 2px solid var(--accent-color, #ff0070);
+  border-left: 2px solid var(--accent-color, #ff0070);
+  pointer-events: none;
+}
+
+.rec::after {
+  content: "rec";
+  position: absolute;
+  top: 21px;
+  right: 47px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--main-font-family, sans-serif);
+  text-transform: uppercase;
+  color: var(--accent-color, #ff0070);
+  pointer-events: none;
+}
+
+.rec::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: var(--accent-color, #ff0070);
+  inline-size: 6px;
+  block-size: 6px;
+  border-radius: 50%;
+  border: 10px var(--accent-color, #ff0070);
+  box-shadow: 0 0 4px 4px var(--accent-color, #ff0070);
+}
+
+.header__theme-menu {
+  place-self: start center;
+  margin-block-start: 20px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  gap: 10px;
+  color: var(--accent-color, #ff0070);
+}
+
+.header__theme-menu-list-item {
+}
+
+.header__theme-menu-button {
+  outline: 1px solid currentColor;
+  background-color: transparent;
+  text-transform: lowercase;
+  border: none;
+  line-height: 1rem;
+  padding: 3px 13px;
+}
+
+.focus_text {
+  display: inline-block;
+  font-size: var(--focus-font-size, 157px);
+  /* font-size: 157px; */
+  color: var(--focus-text-color, #db00ff);
+  font-weight: var(--main-title-dont-weight, 700);
+  place-self: start-self center;
+  text-shadow: 3px 3px var(--accent-color, #ff0070);
+}
+
+.header__title {
+  display: inline-block;
+  max-inline-size: 491px;
+  /* text-wrap: auto; */
+  font-size: var(--h1-font-size, 1rem);
+  margin-inline-end: var(--main-margin-size, 20px);
+  margin-block-end: var(--main-margin-size, 20px);
+  place-self: center self-end;
+  /* justify-self: self-end; */
+  /* align-content: center; */
+  /* white-space: pre-line; */
+}
+
+.accent_bg {
+  color: var(--accent-text-color, #000028);
+  background-color: var(--accent-color, #ff0070);
 }
