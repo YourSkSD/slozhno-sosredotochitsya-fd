@@ -127,3 +127,30 @@
   color: var(--accent-text-color, #000028);
   background-color: var(--accent-color, #ff0070);
 }
+
+.section {
+  display: grid;
+  gap: var(--section-gap, 20px);
+  padding: 0 var(--section-padding, 20px);
+}
+
+.why {
+  grid-template-columns: repeate(3, 1fr);
+  grid-template-rows: repeate(2, 1fr);
+}
+
+.section__title {
+}
+
+.article-list {
+  display: flex;
+  gap: var(--article-list-gap, 20px);
+}
+
+.article {
+  gap: var(--article-gap, 10px);
+}
+
+.article-title {
+  color: var(--accent-color, #ff0070);
+}
