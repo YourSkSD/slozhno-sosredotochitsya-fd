@@ -11,6 +11,7 @@
   --main-text-font-size: 1.125rem;
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
+  --bg-alt-color: #fff1f7;
   --text-color: #f1b2ce;
   --accent-alt-color: #000028;
   --accent-color: #ff0070;
@@ -25,7 +26,7 @@
   --section-padding: 20px;
   --inner-gap: 20px;
   --article-inner-gap: 10px;
-  --section-inner-margin: 60px;
-  --section-outer-margin: 80px;
+  --section-between-margin: 80px;
+  --section-outer-margin: 60px;
   --main-margin-size: 20px;
 }
