@@ -7,6 +7,7 @@
   font-weight: var(--main-text-font-weight, 400);
   font-size: var(--main-text-font-size, 1.125rem);
   background-color: var(--bg-color, #000028);
+  background-position: center;
   background-attachment: fixed;
 }
 
