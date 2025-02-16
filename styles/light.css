@@ -25,8 +25,12 @@
   display: none;
 }
 
+.theme-light .header__theme-menu-button:hover {
+  outline: 1px solid #32312d66;
+}
+
 @media (prefers-color-scheme: light) {
-  :root.theme-light {
+  :root {
     /* Вам также нужно будет написать ряд подобных селекторов */
     --bg-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
