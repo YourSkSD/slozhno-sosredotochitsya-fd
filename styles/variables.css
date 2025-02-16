@@ -22,8 +22,10 @@
   --h3-font-size: 1.125rem;
   --h4-font-size: 1.125rem;
   --article-text-size: 1.125rem;
-  --section-gap: 20px;
-  --section-padding: 20px;
+  --section-row-gap: 20px;
+  --section-column-gap: 20px;
+  --outer-offset: 20px;
+  --decor-offset: 20px;
   --inner-gap: 20px;
   --article-inner-gap: 10px;
   --section-between-margin: 80px;

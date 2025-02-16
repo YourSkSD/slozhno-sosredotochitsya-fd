@@ -1,0 +1,69 @@
+@media (width <= 375px) {
+  :root {
+    --section-row-gap: 10px;
+    --section-column-gap: 10px;
+    --outer-offset: 10px;
+    --section-between-margin: 50px;
+    --section-outer-margin: 40px;
+    --decor-offset: 10px;
+    --main-margin-size: 10px;
+  }
+
+  .header {
+    max-inline-size: 375px;
+    min-block-size: 668px;
+  }
+
+  .header__theme-menu {
+    place-self: center end;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+  }
+
+  .header__title {
+    padding-inline-start: 10px;
+    font-size: 116px;
+  }
+
+  .header__paragraph {
+    max-inline-size: 355px;
+  }
+
+  .section {
+    --section-margin: 10px;
+    --section-row-gap: 20px;
+  }
+
+  .why {
+    grid-template-columns: 1fr;
+  }
+
+  .cause {
+    grid-template-columns: 1fr;
+  }
+
+  .article_list_cause {
+    grid-template-rows: 1fr;
+  }
+
+  .enhancement {
+    grid-template-columns: 1fr;
+  }
+
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+  .footer {
+    min-block-size: 668px;
+  }
+
+  .footer__title {
+    font-size: 116px;
+  }
+}
