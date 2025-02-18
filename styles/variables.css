@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font-family: "IBM Plex Mono";
+  --main-font-family: "IBM Plex Mono", "Monospace";
   --button-line-height: 1em;
   --main-text-font-weight: 400;
   --main-title-font-weight: 700;
@@ -18,11 +18,11 @@
   --focus-text-color: #db00ff;
   --section-header-title-color: #ff0070;
   --decorate-color: #ff0070;
-  --h1-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --h1-line-height: 0.825em;
-  --h2-font-size: 1.125rem;
-  --h3-font-size: 1.125rem;
-  --h4-font-size: 1.125rem;
+  --main-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --main-title-line-height: 0.825em;
+  --section-title-font-size: 1.125rem;
+  --artilcle-title-font-size: 1.125rem;
+  --articl-subtitle-font-size: 1.125rem;
   --article-text-size: 1.125rem;
   --section-row-gap: 20px;
   --section-column-gap: 20px;

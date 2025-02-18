@@ -38,9 +38,9 @@
     grid-template-columns: 1fr 2fr;
   }
 
-  .imagenes {
+  /* .imagenes {
     grid-template-rows: 23px 192px 230px 318px;
-  }
+  } */
 
   .footer {
     min-block-size: 1024px;

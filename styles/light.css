@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-light {
+.theme-light .page {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -18,15 +18,12 @@
   --focus-text-color: #ffc2e6;
   --section-title-color: #353430;
   --decorate-color: #353430;
+  --menu-outline-color: #32312d66;
 }
 
 .theme-light .rec::after,
 .theme-light .rec::before {
   display: none;
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline: 1px solid #32312d66;
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,14 +38,11 @@
     --focus-text-color: #ffc2e6;
     --section-title-color: #353430;
     --decorate-color: #353430;
+    --menu-outline-color: #32312d66;
   }
 
-  .theme-light .header__theme-menu-button:hover {
-    outline: 1px solid #32312d66;
-  }
-
-  .theme-light .rec::after,
-  .theme-light .rec::before {
+  .rec::after,
+  .rec::before {
     display: none;
   }
 }
