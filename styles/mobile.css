@@ -18,10 +18,6 @@
     place-self: center end;
   }
 
-  .header__theme-menu-list {
-    flex-direction: column;
-  }
-
   .header__title {
     padding-inline-start: 10px;
     font-size: 116px;
