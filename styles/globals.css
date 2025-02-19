@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+* {
+  outline: 2px solid red;
+}
+
 body {
   min-inline-size: 375px;
   max-inline-size: 1024px;
