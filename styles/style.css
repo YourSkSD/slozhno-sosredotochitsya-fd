@@ -159,11 +159,6 @@
   /* line-height: var(--main-text-line-height, 1.3em); */
 }
 
-/* .why {
-  margin-block-start: var(--section-outer-margin, 60px);
-  grid-template-columns: 315px 649px;
-} */
-
 .section__title {
   /* grid-row: 1 / -1;
   grid-column: 1 / span 1; */
@@ -243,13 +238,6 @@
   font-size: inherit;
   font-weight: var(--main-text-font-weight, 400);
 }
-
-/* .enhancement {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-columns: 315px 649px;
-  grid-template-rows: 1fr;
-} */
 
 .article_list_enhancement {
   flex-direction: column;

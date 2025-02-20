@@ -22,14 +22,8 @@
     --section-column-gap: 20px;
   }
 
-  /* .why {
-    grid-template-columns: 1fr 2fr;
-  } */
-
   .cause {
-    /* grid-template-columns: 1fr 2fr; */
     grid-template-columns: 1fr 2fr;
-    /* grid-template-rows: min-content 1fr; */
   }
 
   .article_list_cause {
@@ -37,14 +31,6 @@
     grid-template-rows: repeat(auto-fit, min-content);
     row-gap: var(--section-row-gap, 20px);
   }
-
-  /* .enhancement {
-    grid-template-columns: 1fr 2fr;
-  } */
-
-  /* .imagenes {
-    grid-template-rows: 23px 192px 230px 318px;
-  } */
 
   .footer {
     min-block-size: 1024px;
