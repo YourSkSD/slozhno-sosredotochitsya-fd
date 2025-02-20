@@ -28,24 +28,13 @@
   }
 
   .section {
+    grid-template-columns: 1fr;
     --section-margin: 10px;
     --section-row-gap: 20px;
   }
 
-  .why {
-    grid-template-columns: 1fr;
-  }
-
-  .cause {
-    grid-template-columns: 1fr;
-  }
-
   .article_list_cause {
     grid-template-rows: 1fr;
-  }
-
-  .enhancement {
-    grid-template-columns: 1fr;
   }
 
   .imagenes {
